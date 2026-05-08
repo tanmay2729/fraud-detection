@@ -59,7 +59,7 @@ where decisions must be justified.
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/fraud-detection.git
+git clone https://github.com/tanmay2729/fraud-detection.git
 cd fraud-detection
 ```
 
