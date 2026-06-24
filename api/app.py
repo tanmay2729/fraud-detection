@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
-from model_loader import predict_transaction
+from api.model_loader import predict_transaction
 
 # Initialize app
 app = FastAPI(
