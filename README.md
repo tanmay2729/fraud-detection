@@ -1,22 +1,22 @@
-# 🔍 Credit Card Fraud Detection System
+#  Credit Card Fraud Detection System
 
 A complete end-to-end machine learning system that detects 
 fraudulent credit card transactions in real time.
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 Credit card fraud costs billions annually. This system flags 
 suspicious transactions in real time using machine learning, 
 with explainable AI to justify every decision.
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 Data → EDA → Modeling → SHAP Explainability → FastAPI → Streamlit UI
 ---
 
-## 📊 Dataset
+##  Dataset
 - 284,807 transactions over 2 days
 - Only 492 fraudulent (0.17%) — severe class imbalance
 - Features V1–V28 are PCA-transformed for privacy
@@ -24,7 +24,7 @@ Data → EDA → Modeling → SHAP Explainability → FastAPI → Streamlit UI
 
 ---
 
-## 🔬 Approach
+##  Approach
 
 ### Handling Class Imbalance
 Compared three techniques:
@@ -42,11 +42,11 @@ Compared three techniques:
 | Random Forest | ~0.87 | ~0.98 |
 | XGBoost | ~0.85 | ~0.98 |
 
-✅ **Best Model: Random Forest with SMOTE**
+ **Best Model: Random Forest with SMOTE**
 
 ---
 
-## 🔎 Explainability
+##  Explainability
 Used SHAP (SHapley Additive exPlanations) to explain 
 individual predictions — critical for real-world deployment 
 where decisions must be justified.
@@ -55,11 +55,11 @@ where decisions must be justified.
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/fraud-detection.git
+git clone https://github.com/tanmay2729/fraud-detection.git
 cd fraud-detection
 ```
 
@@ -82,7 +82,7 @@ API docs available at: `http://localhost:8000/docs`
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **ML:** scikit-learn, XGBoost, imbalanced-learn
 - **Explainability:** SHAP
 - **API:** FastAPI, Uvicorn
